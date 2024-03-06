@@ -18,9 +18,60 @@ body{
 }
 
 .container{
+    position: relative;
     width:100%;
     background: hsl(217, 19%, 24%);
     border-radius: 10px;
+    padding:35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-weight: 700;
+    text-align: center;
+}
+
+.advice-counter{
+    font-size: 10px;
+    color:hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+}
+
+.advice{
+    font-size: 28px;
+    color:hsl(193, 38%, 86%);
+}
+
+.advice-counter,
+.advice{
+    margin-bottom: 20px;
+}
+
+.pause-icon{
+    position:absolute;
+    display: flex;
+    background:hsl(217, 19%, 24%);
+    gap:10px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    bottom:45px;
+    left:45%;
+    padding:10px;
+}
+
+.pause-icon div{
+    width:8px;
+    height:15px;
+    border-radius: 5px;
+    background:hsl(193, 38%, 86%);
+}
+
+.advice-container{
+    border-bottom: 1px solid hsl(217, 19%, 38%);
+    margin-bottom: 30px;
 }
 
 .randomizer{
@@ -31,6 +82,8 @@ body{
     border-radius: 50%;
     background: hsl(150, 100%, 66%);
     cursor: pointer;
+    position: absolute;
+    bottom: -30px;
 }
 
 .randomizer:hover{
