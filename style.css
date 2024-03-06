@@ -46,7 +46,7 @@ p{
 
 .advice-counter,
 .advice{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .pause-icon{
@@ -87,7 +87,7 @@ p{
 }
 
 .randomizer:hover{
-    box-shadow:9px 9px 30px 5px rgba(82,255,168,0.75);
+    box-shadow:2px 2px 20px 5px rgba(82,255,168,0.75);
     transition: ease-in-out 0.2s;
 }
 
